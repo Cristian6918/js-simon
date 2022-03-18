@@ -23,6 +23,11 @@ body{
     box-shadow: 0px 10px 4px 2px rgba(0, 0, 0, 0.25);
 border-radius: 96px;
 background-color: var(--ct-secondary-color);
+font-size:2rem;
+color:var(--ct-primary-color);
+display: flex;
+align-items: center;
+justify-content: center;
 }
 #ct-container{
     height: 100vh;
@@ -38,12 +43,14 @@ input{
     background-color: var(--ct-primary-color);
     border-bottom:1px solid var(--ct-secondary-color);
     color:var(--ct-secondary-color);
+    
 }
 input:focus-visible{
     outline:none;
 }
 
-#insert_button{
+#insert_button,
+#play_button{
     color:var(--ct-primary-color);
     background-color: var(--ct-secondary-color);
     border:none;
