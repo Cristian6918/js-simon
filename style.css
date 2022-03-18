@@ -1,0 +1,56 @@
+:root{
+    --ct-primary-color:#6D6875;
+    --ct-secondary-color:#FFCDB2;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+body{
+    background-color: var(--ct-primary-color);
+  
+}
+
+#rules{
+    color:var(--ct-secondary-color);
+}
+
+#messageBox{
+    height:20vh;
+    box-shadow: 0px 10px 4px 2px rgba(0, 0, 0, 0.25);
+border-radius: 96px;
+background-color: var(--ct-secondary-color);
+}
+#ct-container{
+    height: 100vh;
+}
+
+label{
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+color: var(--ct-secondary-color);
+}
+
+input{
+    border:none;
+    background-color: var(--ct-primary-color);
+    border-bottom:1px solid var(--ct-secondary-color);
+    color:var(--ct-secondary-color);
+}
+input:focus-visible{
+    outline:none;
+}
+
+#insert_button{
+    color:var(--ct-primary-color);
+    background-color: var(--ct-secondary-color);
+    border:none;
+    outline:none;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 27px;
+}
+#insert_button:active{
+    box-shadow:none;
+}
